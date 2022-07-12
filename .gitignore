@@ -58,7 +58,7 @@ out/
 atlassian-ide-plugin.xml
 
 # Cursive Clojure plugin
-.idea/*.xml
+.idea/replstate.xml
 
 # Crashlytics plugin (for Android Studio and IntelliJ)
 com_crashlytics_export_strings.xml
@@ -183,10 +183,12 @@ celerybeat.pid
 .env
 .venv
 env/
-venv/**
+venv/
 ENV/
 env.bak/
 venv.bak/
+
+/venv/**
 
 # Spyder project settings
 .spyderproject
@@ -212,4 +214,3 @@ dmypy.json
 # Cython debug symbols
 cython_debug/
 
-/venv/
